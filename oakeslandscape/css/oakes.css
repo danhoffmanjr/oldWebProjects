@@ -1,0 +1,273 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {background-color: #4b2c14;}
+
+.wrap {
+	width: 1025px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.wrap2 {
+	width: 849px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.home {
+	position: relative;
+	height: 598px;
+}
+
+.logo {
+	position: absolute;
+	top: 15px;
+	left: 160px;
+	z-index: 100;
+}
+
+.headerLogo {
+	margin: 0 auto;
+	display: block;
+}
+
+.imgHeader {
+	margin: 8px auto;
+	display: block;
+}
+
+.pnlLeft, .pnlCenter, .pnlRight {
+	position: relative; 
+	float: left;
+}
+
+.pnlLeft {
+	width: 249px;
+	height: 598px;
+	background: url('../images/oakes/home_left_pnl.jpg') no-repeat left top;
+}
+
+.pnlCenter {
+	margin: 0 0 0 8px;
+	width: 275px;
+	height: 598px;
+	background: url('../images/oakes/home_center_pnl_btm_spring2.jpg') no-repeat left bottom;
+}
+
+.springPlanting {
+	margin: 176px 0 8px 0;
+}
+
+.pnlRight {
+	margin: 0 0 0 8px;
+	width: 485px;
+	height: 598px;
+	background: url('../images/oakes/home_right_pnl_btm.jpg') no-repeat left bottom;
+}
+
+.pnlRightHeader {
+	position: absolute;
+	top: 24px;
+	z-index: 100;
+}
+
+.bkyrdImg {
+	margin: 118px 0 0 0;
+}
+
+.mainNav, .mainNavHome {
+	margin: 10px 0 0 0;
+	padding: 0;
+	overflow: hidden;
+	list-style: none;
+	border: solid 1px #FFF;
+	border-left: none;
+}
+
+.mainNav li, .mainNavHome li {
+	display: inline;
+	list-style: none;
+}
+
+.mainNav li a {
+	display: block;
+	padding: 5px 0;
+	float: left;
+	font: normal 14px Tahoma, Geneva, sans-serif;
+	color: #FFF;
+	background-color: #630;
+	width: 168px;
+	border-left: solid 1px #FFF;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.mainNavHome li a {
+	display: block;
+	padding: 3px 0;
+	float: left;
+	font: normal 20px Tahoma, Geneva, sans-serif;
+	color: #FFF;
+	background-color: #630;
+	width: 255px;
+	border-left: solid 1px #FFF;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.mainNavHome li a.vCenter {
+	padding: 16px 0;
+}
+
+.mainNav li a.vCenter {
+	padding: 14px 0;
+	width: 169px;
+}
+
+.mainNav li a:hover, .mainNavHome li a:hover {
+	background: url('../images/oakes/gradient.png') repeat-x left top;
+	text-decoration: underline;
+}
+
+.mainNav li a.active {
+	background: url('../images/oakes/gradient.png') repeat-x left top;
+}
+
+/* About Page styles */
+.aboutBody {
+	padding: 0 0 160px 0;
+	position: relative;
+	background: url('../images/oakes/about_walkway.jpg') no-repeat right bottom;
+}
+
+.aboutBody h2 {
+	margin: 35px 50px 0 300px;
+	font: normal 1.5em Georgia, "Times New Roman", Times, serif;
+	color: #f8cc1e;
+	text-align: center;
+}
+
+.aboutBody p {
+	margin: 15px 50px 0 300px;
+	font: normal 1em/1.5em Georgia, "Times New Roman", Times, serif;
+	color: #FFF;
+	text-align: center;
+}
+
+.imgAbout {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+/* Styles for the landscape design & installation page */
+.landscapeBody {
+	padding: 0;
+	position: relative;
+}
+
+.landscapeBody h2 {
+	font: normal 1.5em Georgia, "Times New Roman", Times, serif;
+	color: #f8cc1e;
+}
+
+.landscapeBody p {
+	font: normal .9em/1.2em Georgia, "Times New Roman", Times, serif;
+	color: #FFF;
+	clear: both;
+}
+
+.landscapeBody ul {
+	margin: 0 0 15px 16px;
+	padding: 0;
+	font: normal .9em/1.2em Georgia, "Times New Roman", Times, serif;
+	color: #FFF;
+}
+
+.thumbNav {
+	margin: 0;
+	padding: 0;
+	float: right;
+	width: 206px;
+	list-style: none;
+}
+
+.thumbNav li {
+	display: inline;
+	list-style: none;
+}
+
+.thumbNav li a {
+	display: block;
+	margin: 0 0 5px 0;
+	padding: 0;
+	border: solid 3px #4b2c14;
+}
+
+.thumbNav li a.active {border: solid 3px #ffffff;}
+
+/* About Page styles */
+.contactBody {
+	padding: 20px 0 0 0;
+	position: relative;
+	overflow: auto;
+}
+
+.imgContactLeft {float: left;}
+.imgContactRight {float: right;}
+
+.contactInfo {
+	float: left;	
+	width: 349px;
+	height: 420px;
+}
+
+.contactBody h2 {
+	font: normal 1.5em Georgia, "Times New Roman", Times, serif;
+	color: #f8cc1e;
+	text-align: center;
+}
+
+.contactBody p {
+	margin: 0 0 20px 0;
+	font: normal 1em/1.4em Georgia, "Times New Roman", Times, serif;
+	color: #FFF;
+	clear: both;
+	text-align: center;
+}
+
+.contactBody p a {
+	color: #FFF;
+}
+
+/* Footer styles */
+.footer {
+	margin-top: 10px;
+	padding: 10px 0 20px 0;
+	clear: both;
+}
+
+.footer p {
+	margin: 0 auto 2px auto;
+	text-align: center;
+	font: normal 12px Tahoma, Geneva, sans-serif;
+	color: #FFF;
+}
+
+.footer p a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.footer p a:hover {
+	text-decoration: underline;
+}
+
+.rule {
+	border-top: solid 1px #6f4525;
+}
+
+a {color: #FFF;}

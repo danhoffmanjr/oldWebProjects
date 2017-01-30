@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Tavas", ".", "{324731A2-C1AA-433B-8D8B-AB4CCC176BA1}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/Tavas"
+		Debug.AspNetCompiler.PhysicalPath = "..\Tavas\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Tavas\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Tavas"
+		Release.AspNetCompiler.PhysicalPath = "..\Tavas\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Tavas\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1110"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{324731A2-C1AA-433B-8D8B-AB4CCC176BA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{324731A2-C1AA-433B-8D8B-AB4CCC176BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

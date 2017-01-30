@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Landscape Design &amp; Installation</title>
+<link rel="stylesheet" type="text/css" href="css/oakes.css"/>
+<script src="js/jquery-1-5-1-min.js" type="text/javascript" language="javascript"></script>
+<script>
+ $(document).ready(function(){
+	var btnThumb = ".thumbNav li a";
+	var clickedClass = "active";
+	$(btnThumb).click(function () {
+      var previous = $(btnThumb+'.'+clickedClass).eq();
+      var clicked = $(this);
+         if(clicked !== previous) {
+			 $('.stonePatio').removeClass('active')
+			 $('.stonePatio2').removeClass('active')
+			 $('.backyardPatio').removeClass('active')
+			 $('.gardenPatio').removeClass('active')
+			 $('.backyardPatio2').removeClass('active')
+			 $('.install').removeClass('active')
+         }
+         clicked.addClass(clickedClass);
+    });
+	
+	$(".stonePatio").click(function () {
+      $(".liveImg").attr("src", "images/oakes/stone_patio.jpg");
+    });
+	$(".stonePatio2").click(function () {
+      $(".liveImg").attr("src", "images/oakes/stone_patio2.jpg");
+    });
+	$(".backyardPatio").click(function () {
+      $(".liveImg").attr("src", "images/oakes/backyard.jpg");
+    });
+	$(".gardenPatio").click(function () {
+      $(".liveImg").attr("src", "images/oakes/garden_patio.jpg");
+    });
+	$(".backyardPatio2").click(function () {
+      $(".liveImg").attr("src", "images/oakes/backyard2.jpg");
+    });
+	$(".install").click(function () {
+      $(".liveImg").attr("src", "images/oakes/installation.jpg");
+    });
+	
+	(function($) {
+		var cache = [];
+		$.preLoadImages = function() {
+			var args_len = arguments.length;
+			for (var i = args_len; i--;) {
+				var cacheImage = document.createElement('img');
+				cacheImage.src = arguments[i];
+				cache.push(cacheImage);
+				}
+			}
+		})(jQuery)
+	jQuery.preLoadImages("stone_patio2.jpg", "images/oakes/stone_patio2.jpg");
+	jQuery.preLoadImages("backyard.jpg", "images/oakes/backyard.jpg");
+	jQuery.preLoadImages("garden_patio.jpg", "images/oakes/garden_patio.jpg");
+	jQuery.preLoadImages("backyard2.jpg", "images/oakes/backyard2.jpg");
+	jQuery.preLoadImages("installation.jpg", "images/oakes/installation.jpg");
+ });
+</script>
+
+</head>
+<body>
+<div class="wrap2">
+	<img src="images/oakes/header_logo.png" class="headerLogo" alt="Oakes Landscape Services LLC" />
+    <ul class="mainNav">
+    	<li><a class="vCenter" href="home.html">Home</a></li>
+        <li><a class="vCenter" href="about.html">About Us</a></li>
+        <li><a class="active" href="landscape_design.html">Landscape Design <br />&amp; Installation</a></li>
+        <li><a href="landscape_maintenance.html">Landscape <br />Maintenance</a></li>
+        <li><a class="vCenter" href="contact.html">Contact</a></li>
+    </ul>
+    <img src="images/oakes/landscape_header.jpg" class="imgHeader" alt="Landscape Design and Installation" />
+    <div class="landscapeBody">
+    	<h2>Landscape Design and Installation</h2>
+        <p>From a completely new landscape design and installation of your project or updates to your current landscape, we can accommodate your needs and budget. We plant and guarantee only the highest quality plant material for that "Just So" look.</p>
+        <p>Does your plan require hardscaping? We offer a full array of hardscaping, be it a walkway, patio or wall. We build everything custom. Speaking of custom, water features are a great addition to any landscape. We can design features like a pond-less waterfall or a running brook, even a Koi pond!</p>
+        <p>Please <a href="contact.html">contact</a> us for more information.</p>
+        <ul class="thumbNav">
+        	<li><a class="stonePatio active"><img src="images/oakes/thumb_stone_patio.jpg" alt="Stone Patio Preview" border="0" /></a></li>
+            <li><a class="stonePatio2"><img src="images/oakes/thumb_stone_patio2.jpg" alt="Extended Stone Patio Preview" border="0" /></a></li>
+            <li><a class="backyardPatio"><img src="images/oakes/thumb_backyard.jpg" alt="Backyard Hardscape Preview" border="0" /></a></li>
+            <li><a class="gardenPatio"><img src="images/oakes/thumb_garden_patio.jpg" alt="Garden Patio Preview" border="0" /></a></li>
+            <li><a class="backyardPatio2"><img src="images/oakes/thumb_backyard_patio2.jpg" alt="Backyard Patio Preview" border="0" /></a></li>
+            <li><a class="install"><img src="images/oakes/thumb_install.jpg" alt="Installation Preview" border="0" /></a></li>
+        </ul>
+        <img class="liveImg" src="images/oakes/stone_patio.jpg" alt="Stone Patio" />
+    </div>
+    <div class="footer rule">
+   	  <p>Oakes Landscape Services LLC &copy; 2011 All Rights Reserved.</p>
+    	<p>Phone: 215-672-5378 (Horsham), 267-362-5293 (Doylestown) &bull; Fax: 215-672-7224</p>
+    	<p>E-mail: <a href="mailto:joakes@oakeslandscapeservices.com">joakes@oakeslandscapeservices.com</a> &bull; <a href="mailto:soakes@oakeslandscapeservices.com">soakes@oakeslandscapeservices.com</a></p>
+      	<p>Site design by <a href="http://www.236design.com" target="_blank">236design</a></p>
+  </div>
+</div>
+</body>
+</html>

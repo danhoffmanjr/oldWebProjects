@@ -1,0 +1,122 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="OldTavas.master.cs" Inherits="ASPX_OldTavas" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Welcome to Tavas Home Page</title>
+    <link href="../css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="../css/tavashome.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+    <asp:ToolkitScriptManager ID="toolkitScriptMaster" runat="server"></asp:ToolkitScriptManager>
+    <div class="topWrap">
+        <div class="topContent">
+            <ul class="navMain">
+                <li><a class="homeActive" href="default.aspx" title="Home"><span>Home</span></a></li>
+                <li><a class="about" href="default.aspx" title="About"><span>About</span></a></li>
+                <li><a class="contact" href="default.aspx" title="Contact"><span>Contact</span></a></li>
+                <li><a class="events" href="default.aspx" title="Events"><span>Events</span></a></li>
+                <li><a class="news" href="default.aspx" title="News"><span>News</span></a></li>
+                <li><a class="blog" href="default.aspx" title="Blog"><span>Blog</span></a></li>
+            </ul>
+            <img class="logo" src="../images/logo_tavas.png" alt="Tavas Foundation" />
+            <h1>Tavas Foundation is a non-profit organization working to enable organizations and individuals to implement their own renewable energy solutions.</h1>
+                        <asp:HyperLink ID="lnkJoin" runat="server" NavigateUrl="~/ASPX/JoinUs.aspx"><img class="btnJoin" src="../images/btn_join.png" alt="" /></asp:HyperLink>
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="PNR3HEW2VHUSU">
+            <%--<asp:ImageButton CssClass="btnDonate" ID="btnDonate" runat="server" ImageUrl="~/images/btn_donate.png" PostBackUrl="https://www.sandbox.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" />--%>
+        <input type="image" class="btnDonate" src="http://tavas.org/images/btn_donate.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        </div>
+    </div>
+    <div class="midWrap">
+        <div class="midContent">
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+            <div class="sidebar">
+                <marquee direction=up class="pnlQuote" >
+                <p> <img src="../images/bkgd_LeftQuotes.png" alt="start quote" scrolldelay=5/>
+                I'd put my money on the sun and solar energy. What a source of power! I hope we don't have to wait 'til oil and coal run out before we tackle that.
+                 <img src="../images/bkgd_rightQuotes.png" alt="end quote" /></p>
+                    <p class="author">- Thomas Edison</p><br />
+                <p><img src="../images/bkgd_LeftQuotes.png" alt="start quote" />To waste, to destroy our natural resources, to skin and exhaust the land instead of using it so as to increase its usefulness, will result in undermining in the days of our children the very prosperity which we ought by right to hand down to them amplified and developed.
+                <img src="../images/bkgd_rightQuotes.png" alt="end quote" /></p>
+                    <p class="author">- Theodore Roosevelt</p> <br />
+                <p><img src="../images/bkgd_LeftQuotes.png" alt="start quote" />We simply must balance our demand for energy with our rapidly shrinking resources. By acting now we can control our future instead of letting the future control us.
+                <img src="../images/bkgd_rightQuotes.png" alt="end quote" /></p>
+                    <p class="author">- Jimmy Carter</p><br />
+                <p><img src="../images/bkgd_LeftQuotes.png" alt="start quote" />The answer is to end our reliance on carbon-based fuels...If we succeed, we create booming new industries, wealth, clean secure energy and maybe we prevent the greatest disaster so far in human history, saving millions of lives while improving billions more. If we fail, basically it's business as usual while things slowly get worse all around us.
+                <img src="../images/bkgd_rightQuotes.png" alt="end quote" /></p>
+                    <p class="author">- Al Gore</p><br />
+                <p><img src="../images/bkgd_LeftQuotes.png" alt="start quote" />
+I urge individuals around the world to stand up, and ask local leaders, if they haven't already, to pledge to purchase cleaner cars, build green facilities, and buy green power like wind or solar energy. Our actions may determine if we become a casualty in the war for a habitable planet for generations to come.
+                <img src="../images/bkgd_rightQuotes.png" alt="end quote" /></p>
+                    <p class="author">- Leonardo DiCaprio</p><br />                                                           
+                </marquee>
+                <div class="pnlSidebarTabs">
+                    <asp:tabcontainer CssClass="sidetabs" ID="Tabcontainer2" runat="server" EnableTheming="true" ActiveTabIndex="0">
+<asp:TabPanel HeaderText="Follow us" TabIndex="0" ID="sidetab1" runat="server">
+                            <ContentTemplate>
+                                <div class="pnlEvents" >
+                                    <h3>Follow us</h3>
+                                    <ul>
+                                        <li><a href="http://www.facebook.com/pages/Tavas-Its-Your-Power-Own-It/172366689470665" target="_blank">
+                                        <img src="../images/facebook - Copy.gif" border=0 width=90 height=20 class=ico></a>
+                                        </li>
+                                        <li><a href="http://www.twitter.com/vhebbar" target="_blank"><img src="http://twitter-badges.s3.amazonaws.com/
+twitter-a.png" alt="Follow vhebbar on Twitter"/></a>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </ContentTemplate>
+                        </asp:TabPanel>
+                        <asp:TabPanel HeaderText="Projects" TabIndex="1" ID="sidetab2" runat="server">
+                            <ContentTemplate>
+                                <div class="pnlNews" >
+                                    <h3>Projects</h3>
+                                    <ul>
+                                        <li>FPO News listing one</li>
+                                        <li>FPO News listing two</li>
+                                        <li>FPO News listing three</li>
+                                        <li>FPO News listing four</li>
+                                        <li>FPO News listing five</li>
+                                    </ul>
+                                </div>
+                            </ContentTemplate>
+                        </asp:TabPanel>
+                        <asp:TabPanel HeaderText="Partners" TabIndex="2" ID="sidetab3" runat="server">
+                            <ContentTemplate>
+                                <div class="pnlBlog" >
+                                    <h3>Partners</h3>
+                                    <ul>
+                                        <li>Blog post text and link...</li>
+                                        <li>Blog post text and link...</li>
+                                        <li>Blog post text and link...</li>
+                                        <li>Blog post text and link...</li>
+                                        <li>Blog post text and link...</li>
+                                        <li>Blog post text and link...</li>
+                                    </ul>
+                                </div>
+                            </ContentTemplate>
+                        </asp:TabPanel>
+                    </asp:tabcontainer>
+                </div>
+                <div class="pnlContact">
+                   <h3>Get in Touch</h3>
+                    <ul>
+                    <li>1838 Rose Tree Lane <br />Havertown, PA, 19803</li>
+                        <li><img src="../images/icon_mail.png" alt="email" /> ownpower@tavas.org</li>
+                        <li><img src="../images/icon_phone.png" alt="phone" /> 1-201-294-5040</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footerWrap">
+        <p>Tavas &copy; 2010. All rights reserved.</p>
+        <p><a href="PrivacyPolicy.aspx">Privacy Policy</a></p>
+    </div>
+    </form>
+</body>
+</html>

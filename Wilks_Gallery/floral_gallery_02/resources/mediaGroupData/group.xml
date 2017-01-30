@@ -1,0 +1,267 @@
+<?xml version="1.0"?>
+<mediaGroup>
+    <amgVersion version="1.3"></amgVersion>
+    <groupInfo>
+        <author></author>
+        <authorApplication>Adobe Lightroom 1.0</authorApplication>
+        <creationDate>06/05/08, 07:29:26 PM</creationDate>
+        <galleryMaker name="Adobe Flash Gallery" version="1.3"></galleryMaker>
+        <groupData groupID="" groupName=""></groupData>
+        <authorID></authorID>
+        <custom>
+            <groupTitle>Florals</groupTitle>
+            <groupDescription>Web Photo Gallery created by Adobe Lightroom.</groupDescription>
+            <siteTitle>Wilks Gallery</siteTitle>
+            <contactName>Contact Stephanie Wilks</contactName>
+            <contactEmail>mailto:user@domain</contactEmail>
+        </custom>
+    </groupInfo>
+    <sizes>
+        <imageSize size="thumb" maxwidth="96" maxheight="96"></imageSize>
+        <imageSize size="small" maxwidth="800" maxheight="450"></imageSize>
+        <imageSize size="medium" maxwidth="1040" maxheight="520"></imageSize>
+        <imageSize size="large" maxwidth="1150" maxheight="650"></imageSize>
+    </sizes>
+    <media totalGallerySize="20">
+        <item>
+            <title>Yellow Gerber Daisy</title>
+            <description></description>
+            <imageID dbtype="Adobe Lightroom 1.0" dbname="db1234" id="1B3B8119-EE14-40A3-9CD5-E8FCB169DC97"></imageID>
+            <mediaType category="image" format="jpeg"></mediaType>
+            <renditions>
+                <rendition size="large" src="bin/images/large/Yellow_Gerber_Daisy.jpg" height="650" width="650"></rendition>
+                <rendition size="medium" src="bin/images/medium/Yellow_Gerber_Daisy.jpg" height="520" width="520"></rendition>
+                <rendition size="small" src="bin/images/small/Yellow_Gerber_Daisy.jpg" height="450" width="450"></rendition>
+                <rendition size="thumb" src="bin/images/thumb/Yellow_Gerber_Daisy.jpg" height="96" width="96"></rendition>
+            </renditions>
+        </item>
+        <item>
+            <title>Pink Tulip</title>
+            <description></description>
+            <imageID dbtype="Adobe Lightroom 1.0" dbname="db1234" id="7F7217DE-F083-4B69-9DF1-3358118705EF"></imageID>
+            <mediaType category="image" format="jpeg"></mediaType>
+            <renditions>
+                <rendition size="large" src="bin/images/large/Pink_Tulip.jpg" height="650" width="650"></rendition>
+                <rendition size="medium" src="bin/images/medium/Pink_Tulip.jpg" height="520" width="520"></rendition>
+                <rendition size="small" src="bin/images/small/Pink_Tulip.jpg" height="450" width="450"></rendition>
+                <rendition size="thumb" src="bin/images/thumb/Pink_Tulip.jpg" height="96" width="96"></rendition>
+            </renditions>
+        </item>
+        <item>
+            <title>Yellow Calla w Leaf</title>
+            <description></description>
+            <imageID dbtype="Adobe Lightroom 1.0" dbname="db1234" id="14FE05C4-2C27-4978-BEFB-43B6AEF413A4"></imageID>
+            <mediaType category="image" format="jpeg"></mediaType>
+            <renditions>
+                <rendition size="large" src="bin/images/large/Yellow_Calla_w_Leaf.jpg" height="650" width="677"></rendition>
+                <rendition size="medium" src="bin/images/medium/Yellow_Calla_w_Leaf.jpg" height="520" width="542"></rendition>
+                <rendition size="small" src="bin/images/small/Yellow_Calla_w_Leaf.jpg" height="450" width="469"></rendition>
+                <rendition size="thumb" src="bin/images/thumb/Yellow_Calla_w_Leaf.jpg" height="92" width="96"></rendition>
+            </renditions>
+        </item>
+        <item>
+            <title>Fuschia Phalaenopsis Orchid</title>
+            <description></description>
+            <imageID dbtype="Adobe Lightroom 1.0" dbname="db1234" id="47BCB7FD-6B53-44BF-A2B6-A0B7E2450A5D"></imageID>
+            <mediaType category="image" format="jpeg"></mediaType>
+            <renditions>
+                <rendition size="large" src="bin/images/large/Fuschia_Phalaenopsis_Orchid.jpg" height="650" width="650"></rendition>
+                <rendition size="medium" src="bin/images/medium/Fuschia_Phalaenopsis_Orchid.jpg" height="520" width="520"></rendition>
+                <rendition size="small" src="bin/images/small/Fuschia_Phalaenopsis_Orchid.jpg" height="450" width="450"></rendition>
+                <rendition size="thumb" src="bin/images/thumb/Fuschia_Phalaenopsis_Orchid.jpg" height="96" width="96"></rendition>
+            </renditions>
+        </item>
+        <item>
+            <title>Purple hydraenga</title>
+            <description></description>
+            <imageID dbtype="Adobe Lightroom 1.0" dbname="db1234" id="2D4469A8-73C7-405C-9FFB-C0447318CF7F"></imageID>
+            <mediaType category="image" format="jpeg"></mediaType>
+            <renditions>
+                <rendition size="large" src="bin/images/large/Purple_hydraenga.jpg" height="650" width="650"></rendition>
+                <rendition size="medium" src="bin/images/medium/Purple_hydraenga.jpg" height="520" width="520"></rendition>
+                <rendition size="small" src="bin/images/small/Purple_hydraenga.jpg" height="450" width="450"></rendition>
+                <rendition size="thumb" src="bin/images/thumb/Purple_hydraenga.jpg" height="96" width="96"></rendition>
+            </renditions>
+        </item>
+        <item>
+            <title>Purple Tulips</title>
+            <description></description>
+            <imageID dbtype="Adobe Lightroom 1.0" dbname="db1234" id="3CD491AB-EFC4-4B55-BB10-F77090A1BEDD"></imageID>
+            <mediaType category="image" format="jpeg"></mediaType>
+            <renditions>
+                <rendition size="large" src="bin/images/large/Purple_Tulips.jpg" height="650" width="433"></rendition>
+                <rendition size="medium" src="bin/images/medium/Purple_Tulips.jpg" height="520" width="347"></rendition>
+                <rendition size="small" src="bin/images/small/Purple_Tulips.jpg" height="450" width="300"></rendition>
+                <rendition size="thumb" src="bin/images/thumb/Purple_Tulips.jpg" height="96" width="64"></rendition>
+            </renditions>
+        </item>
+        <item>
+            <title>Queen Anne's Lace side</title>
+            <description></description>
+            <imageID dbtype="Adobe Lightroom 1.0" dbname="db1234" id="AFA23C78-E32B-476D-B427-2917FC882177"></imageID>
+            <mediaType category="image" format="jpeg"></mediaType>
+            <renditions>
+                <rendition size="large" src="bin/images/large/Queen_Anne_s_Lace_side.jpg" height="650" width="662"></rendition>
+                <rendition size="medium" src="bin/images/medium/Queen_Anne_s_Lace_side.jpg" height="520" width="529"></rendition>
+                <rendition size="small" src="bin/images/small/Queen_Anne_s_Lace_side.jpg" height="450" width="458"></rendition>
+                <rendition size="thumb" src="bin/images/thumb/Queen_Anne_s_Lace_side.jpg" height="94" width="96"></rendition>
+            </renditions>
+        </item>
+        <item>
+            <title>Yellow Calla full</title>
+            <description></description>
+            <imageID dbtype="Adobe Lightroom 1.0" dbname="db1234" id="42833065-1D6F-45C2-B92B-20FFAF2A8A8C"></imageID>
+            <mediaType category="image" format="jpeg"></mediaType>
+            <renditions>
+                <rendition size="large" src="bin/images/large/Yellow_Calla_full.jpg" height="650" width="422"></rendition>
+                <rendition size="medium" src="bin/images/medium/Yellow_Calla_full.jpg" height="520" width="338"></rendition>
+                <rendition size="small" src="bin/images/small/Yellow_Calla_full.jpg" height="450" width="292"></rendition>
+                <rendition size="thumb" src="bin/images/thumb/Yellow_Calla_full.jpg" height="96" width="62"></rendition>
+            </renditions>
+        </item>
+        <item>
+            <title>White Rose</title>
+            <description></description>
+            <imageID dbtype="Adobe Lightroom 1.0" dbname="db1234" id="A68C9920-57B4-4AA6-A56F-FE1039C6BBCE"></imageID>
+            <mediaType category="image" format="jpeg"></mediaType>
+            <renditions>
+                <rendition size="large" src="bin/images/large/White_Rose.jpg" height="650" width="650"></rendition>
+                <rendition size="medium" src="bin/images/medium/White_Rose.jpg" height="520" width="520"></rendition>
+                <rendition size="small" src="bin/images/small/White_Rose.jpg" height="450" width="450"></rendition>
+                <rendition size="thumb" src="bin/images/thumb/White_Rose.jpg" height="96" width="96"></rendition>
+            </renditions>
+        </item>
+        <item>
+            <title>Pink Dahlia</title>
+            <description></description>
+            <imageID dbtype="Adobe Lightroom 1.0" dbname="db1234" id="4460BA31-24E3-4680-B659-B66FBD4E4BB0"></imageID>
+            <mediaType category="image" format="jpeg"></mediaType>
+            <renditions>
+                <rendition size="large" src="bin/images/large/Pink_Dahlia.jpg" height="650" width="673"></rendition>
+                <rendition size="medium" src="bin/images/medium/Pink_Dahlia.jpg" height="520" width="539"></rendition>
+                <rendition size="small" src="bin/images/small/Pink_Dahlia.jpg" height="450" width="466"></rendition>
+                <rendition size="thumb" src="bin/images/thumb/Pink_Dahlia.jpg" height="93" width="96"></rendition>
+            </renditions>
+        </item>
+        <item>
+            <title>Leucadendron Safari Sunset</title>
+            <description></description>
+            <imageID dbtype="Adobe Lightroom 1.0" dbname="db1234" id="FB0807B1-25F6-41D2-A164-74BC867FD1B3"></imageID>
+            <mediaType category="image" format="jpeg"></mediaType>
+            <renditions>
+                <rendition size="large" src="bin/images/large/Leucadendron_Safari_Sunset.jpg" height="650" width="688"></rendition>
+                <rendition size="medium" src="bin/images/medium/Leucadendron_Safari_Sunset.jpg" height="520" width="551"></rendition>
+                <rendition size="small" src="bin/images/small/Leucadendron_Safari_Sunset.jpg" height="450" width="477"></rendition>
+                <rendition size="thumb" src="bin/images/thumb/Leucadendron_Safari_Sunset.jpg" height="91" width="96"></rendition>
+            </renditions>
+        </item>
+        <item>
+            <title>Sunflower</title>
+            <description></description>
+            <imageID dbtype="Adobe Lightroom 1.0" dbname="db1234" id="E3432748-CE3C-490D-BA71-53D98F1C1A4C"></imageID>
+            <mediaType category="image" format="jpeg"></mediaType>
+            <renditions>
+                <rendition size="large" src="bin/images/large/Sunflower.jpg" height="650" width="650"></rendition>
+                <rendition size="medium" src="bin/images/medium/Sunflower.jpg" height="520" width="520"></rendition>
+                <rendition size="small" src="bin/images/small/Sunflower.jpg" height="450" width="450"></rendition>
+                <rendition size="thumb" src="bin/images/thumb/Sunflower.jpg" height="96" width="96"></rendition>
+            </renditions>
+        </item>
+        <item>
+            <title>Stargazer Lily back</title>
+            <description></description>
+            <imageID dbtype="Adobe Lightroom 1.0" dbname="db1234" id="538E5C1B-6C4B-43A0-A330-9922C072F6E1"></imageID>
+            <mediaType category="image" format="jpeg"></mediaType>
+            <renditions>
+                <rendition size="large" src="bin/images/large/Stargazer_Lily_back.jpg" height="650" width="640"></rendition>
+                <rendition size="medium" src="bin/images/medium/Stargazer_Lily_back.jpg" height="520" width="512"></rendition>
+                <rendition size="small" src="bin/images/small/Stargazer_Lily_back.jpg" height="450" width="443"></rendition>
+                <rendition size="thumb" src="bin/images/thumb/Stargazer_Lily_back.jpg" height="96" width="95"></rendition>
+            </renditions>
+        </item>
+        <item>
+            <title>Peony</title>
+            <description></description>
+            <imageID dbtype="Adobe Lightroom 1.0" dbname="db1234" id="B95B97F0-676D-468F-ACE9-1C969D72DF77"></imageID>
+            <mediaType category="image" format="jpeg"></mediaType>
+            <renditions>
+                <rendition size="large" src="bin/images/large/Peony.jpg" height="650" width="650"></rendition>
+                <rendition size="medium" src="bin/images/medium/Peony.jpg" height="520" width="520"></rendition>
+                <rendition size="small" src="bin/images/small/Peony.jpg" height="450" width="450"></rendition>
+                <rendition size="thumb" src="bin/images/thumb/Peony.jpg" height="96" width="96"></rendition>
+            </renditions>
+        </item>
+        <item>
+            <title>Purple Tulip</title>
+            <description></description>
+            <imageID dbtype="Adobe Lightroom 1.0" dbname="db1234" id="A345FA46-3978-477E-8E96-8E6ED942814F"></imageID>
+            <mediaType category="image" format="jpeg"></mediaType>
+            <renditions>
+                <rendition size="large" src="bin/images/large/Purple_Tulip.jpg" height="650" width="650"></rendition>
+                <rendition size="medium" src="bin/images/medium/Purple_Tulip.jpg" height="520" width="520"></rendition>
+                <rendition size="small" src="bin/images/small/Purple_Tulip.jpg" height="450" width="450"></rendition>
+                <rendition size="thumb" src="bin/images/thumb/Purple_Tulip.jpg" height="96" width="96"></rendition>
+            </renditions>
+        </item>
+        <item>
+            <title>Queen Anne's Lace full</title>
+            <description></description>
+            <imageID dbtype="Adobe Lightroom 1.0" dbname="db1234" id="CA6F1521-2C6A-462E-9B07-F8F1FDE566E3"></imageID>
+            <mediaType category="image" format="jpeg"></mediaType>
+            <renditions>
+                <rendition size="large" src="bin/images/large/Queen_Anne_s_Lace_full.jpg" height="650" width="645"></rendition>
+                <rendition size="medium" src="bin/images/medium/Queen_Anne_s_Lace_full.jpg" height="520" width="516"></rendition>
+                <rendition size="small" src="bin/images/small/Queen_Anne_s_Lace_full.jpg" height="450" width="447"></rendition>
+                <rendition size="thumb" src="bin/images/thumb/Queen_Anne_s_Lace_full.jpg" height="96" width="95"></rendition>
+            </renditions>
+        </item>
+        <item>
+            <title>Three Callas</title>
+            <description></description>
+            <imageID dbtype="Adobe Lightroom 1.0" dbname="db1234" id="D9FE52AE-7A01-4485-A352-B26B37C4689E"></imageID>
+            <mediaType category="image" format="jpeg"></mediaType>
+            <renditions>
+                <rendition size="large" src="bin/images/large/Three_Callas.jpg" height="650" width="382"></rendition>
+                <rendition size="medium" src="bin/images/medium/Three_Callas.jpg" height="520" width="306"></rendition>
+                <rendition size="small" src="bin/images/small/Three_Callas.jpg" height="450" width="265"></rendition>
+                <rendition size="thumb" src="bin/images/thumb/Three_Callas.jpg" height="96" width="56"></rendition>
+            </renditions>
+        </item>
+        <item>
+            <title>White Roses</title>
+            <description></description>
+            <imageID dbtype="Adobe Lightroom 1.0" dbname="db1234" id="7FD93693-269B-418C-8D9C-A7E973F965AB"></imageID>
+            <mediaType category="image" format="jpeg"></mediaType>
+            <renditions>
+                <rendition size="large" src="bin/images/large/White_Roses.jpg" height="650" width="558"></rendition>
+                <rendition size="medium" src="bin/images/medium/White_Roses.jpg" height="520" width="446"></rendition>
+                <rendition size="small" src="bin/images/small/White_Roses.jpg" height="450" width="386"></rendition>
+                <rendition size="thumb" src="bin/images/thumb/White_Roses.jpg" height="96" width="82"></rendition>
+            </renditions>
+        </item>
+        <item>
+            <title>Sunflower side</title>
+            <description></description>
+            <imageID dbtype="Adobe Lightroom 1.0" dbname="db1234" id="3A032FA3-271D-4C1E-8CEC-2233085BE0E0"></imageID>
+            <mediaType category="image" format="jpeg"></mediaType>
+            <renditions>
+                <rendition size="large" src="bin/images/large/Sunflower_side.jpg" height="650" width="654"></rendition>
+                <rendition size="medium" src="bin/images/medium/Sunflower_side.jpg" height="520" width="523"></rendition>
+                <rendition size="small" src="bin/images/small/Sunflower_side.jpg" height="450" width="453"></rendition>
+                <rendition size="thumb" src="bin/images/thumb/Sunflower_side.jpg" height="95" width="96"></rendition>
+            </renditions>
+        </item>
+        <item>
+            <title>Stargazer Lily front</title>
+            <description></description>
+            <imageID dbtype="Adobe Lightroom 1.0" dbname="db1234" id="28743D48-1FBD-48B5-88E1-929661E882CA"></imageID>
+            <mediaType category="image" format="jpeg"></mediaType>
+            <renditions>
+                <rendition size="large" src="bin/images/large/Stargazer_Lily_front.jpg" height="650" width="650"></rendition>
+                <rendition size="medium" src="bin/images/medium/Stargazer_Lily_front.jpg" height="520" width="520"></rendition>
+                <rendition size="small" src="bin/images/small/Stargazer_Lily_front.jpg" height="450" width="450"></rendition>
+                <rendition size="thumb" src="bin/images/thumb/Stargazer_Lily_front.jpg" height="96" width="96"></rendition>
+            </renditions>
+        </item>
+    </media>
+</mediaGroup>

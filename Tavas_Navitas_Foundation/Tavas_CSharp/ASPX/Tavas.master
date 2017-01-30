@@ -1,0 +1,159 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Tavas.master.cs" Inherits="ASPX_Tavas" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Welcome to Tavas Home Page</title>
+    <link href="../css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="../css/tavashome.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="../js/jquery.tinycarousel.min.js"></script>
+	<script type="text/javascript">
+	    $(document).ready(function() {
+
+	        $('.pnlQuote').tinycarousel({ pager: true });
+
+	    });
+    </script>
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-21048749-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>	
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ToolkitScriptManager ID="toolkitScriptMaster" runat="server"></asp:ToolkitScriptManager>
+    <div class="topWrap">
+        <div class="topContent">
+            <%--Optional Site Navigation--%>
+            <%--<ul class="navMain">
+                <li><a class="homeActive" href="default.aspx" title="Home"><span>Home</span></a></li>
+                <li><a class="about" href="default.aspx" title="About"><span>About</span></a></li>
+                <li><a class="contact" href="default.aspx" title="Contact"><span>Contact</span></a></li>
+                <li><a class="events" href="default.aspx" title="Events"><span>Events</span></a></li>
+                <li><a class="news" href="default.aspx" title="News"><span>News</span></a></li>
+                <li><a class="blog" href="default.aspx" title="Blog"><span>Blog</span></a></li>
+            </ul>--%>
+            <a href="Default.aspx"><img class="logo" src="../images/logo_03.png" alt="Tavas Foundation" /></a>
+            <%--<h1>Tavas is a non-profit organization working to enable organizations and individuals to implement their own renewable energy solutions.</h1>--%>
+            <asp:ImageButton CssClass="btnJoin" ID="btnJoin" runat="server" ImageUrl="~/images/btn_join.png" PostBackUrl="~/ASPX/JoinUs.aspx" />
+            <asp:ImageButton CssClass="btnDonate" ID="btnDonate" runat="server" ImageUrl="~/images/btn_donate.png" PostBackUrl="~/ASPX/Donate.aspx"  />
+        </div>
+    </div>
+    <div class="midWrap">
+        <div class="midContent">
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+            <div class="sidebar">
+                <div class="pnlQuote">
+                    <ul class="pager">
+                        <li><a rel="0" class="pagenum" href="#">&#8226;</a></li>
+                        <li><a rel="1" class="pagenum" href="#">&#8226;</a></li>
+                        <li><a rel="2" class="pagenum" href="#">&#8226;</a></li>
+                        <li><a rel="3" class="pagenum" href="#">&#8226;</a></li>
+                        <li><a rel="4" class="pagenum" href="#">&#8226;</a></li>
+                    </ul>
+                    <div class="viewport">
+                        <ul class="overview">
+                            <li>
+                                <p>
+                                    I'd put my money on the sun and solar energy. What a source of power! I hope we
+                                    don't have to wait 'til oil and coal run out before we tackle that.
+                                    <img src="../images/bkgd_rightQuotes.png" alt="end quote" /></p>
+                                <p class="author">- Thomas Edison</p>
+                            </li>
+                            <li>
+                                <p>
+                                    To waste, to destroy our natural resources, to skin and exhaust the land instead
+                                    of using it so as to increase its usefulness, will result in undermining in the
+                                    days of our children the very prosperity which we ought by right to hand down to
+                                    them amplified and developed.
+                                    <img src="../images/bkgd_rightQuotes.png" alt="end quote" /></p>
+                                <p class="author">- Theodore Roosevelt</p>
+                            </li>
+                            <li>
+                                <p>
+                                    We simply must balance our demand for energy with our rapidly shrinking resources.
+                                    By acting now we can control our future instead of letting the future control us.
+                                    <img src="../images/bkgd_rightQuotes.png" alt="end quote" /></p>
+                                <p class="author">- Jimmy Carter</p>
+                            </li>
+                            <li>
+                                <p>
+                                    I believe that the U.S. can and should be a global leader in the development of alternative energy sources.
+                                    <img src="../images/bkgd_rightQuotes.png" alt="end quote" /></p>
+                                <p class="author">- Barack Obama</p>
+                            </li>
+                            <li>
+                                <p>
+                                   There are two kinds of solar-heat systems: 'passive' systems collect the sunlight that hits your home, and 'active' systems collect the sunlight that hits your neighbors' homes, too.
+                                    <img src="../images/bkgd_rightQuotes.png" alt="end quote" /></p>
+                                <p class="author">- Dave Barry - Humour Columnist</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="pnlSidebarTabs">
+                    <asp:tabcontainer CssClass="sidetabs" ID="Tabcontainer2" runat="server" EnableTheming="true" ActiveTabIndex="0">
+                        <asp:TabPanel HeaderText="Follow us" TabIndex="0" ID="sidetab1" runat="server">
+                            <ContentTemplate>
+                                <div class="pnlEvents" >
+                                   <ul>
+                                        <li><a href="http://www.facebook.com/pages/Tavas-Its-Your-Power-Own-It/172366689470665" target="_blank">
+                                        <img src="../images/facebook - Copy.gif" border=0 width=90 height=20 class=ico></a>
+                                        </li>
+                                        <li><a href="http://www.twitter.com/TavasPower"><img src="http://twitter-badges.s3.amazonaws.com/twitter-a.png" alt="Follow TavasPower on Twitter"/></a>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </ContentTemplate>
+                        </asp:TabPanel>
+                        <asp:TabPanel HeaderText="Projects" TabIndex="1" ID="sidetab2" runat="server">
+                            <ContentTemplate>
+                                <div class="pnlNews" >
+                                     <%--<h3>Projects</h3>--%>
+                                    <ul>
+                                        <li>Coming soon..</li>
+                                    </ul>
+                                </div>
+                            </ContentTemplate>
+                        </asp:TabPanel>
+                        <asp:TabPanel HeaderText="Partners" TabIndex="2" ID="sidetab3" runat="server">
+                            <ContentTemplate>
+                                <div class="pnlBlog" >
+                                    <%--<h3>Partners</h3>--%>
+                                    <ul>
+                                       <li>Coming soon..</li>
+                                    </ul>
+                                </div>
+                            </ContentTemplate>
+                        </asp:TabPanel>
+                    </asp:tabcontainer>
+                </div>
+                <div class="pnlContact">
+                    <h3>Get in Touch</h3>
+                    <ul>
+                        <li><img src="../images/icon_mail.png" alt="email" /> ownpower@tavas.org</li>
+                        <li><img src="../images/icon_phone.png" alt="phone" /> 201.294.5040</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footerWrap">
+        <p>Tavas &copy; 2010. All rights reserved.</p>
+        <p><a href="PrivacyPolicy.aspx">Privacy Policy</a></p>
+    </div>
+    </form>
+</body>
+</html>

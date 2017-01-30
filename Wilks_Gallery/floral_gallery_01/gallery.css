@@ -1,0 +1,26 @@
+#liveUpdateSiteTitle {
+  color: #000000 !important;
+  background-color: inherit;
+}
+
+body {
+  background-color: #7D7D7D !important;
+  text-align: center !important;
+  height: 100% !important;
+  font-family: Verdana, Arial, Helvetica, sans-serif !important;
+  font-size:  10px !important;
+  width: 100% !important;
+  color: inherit;
+}
+
+#flashcontent {
+  height: 600px !important;
+  margin: 0px auto !important;
+  width: 900px !important;
+}
+
+#idplate {
+  clear: both !important;
+  border: 0px !important;
+  margin: 0 auto !important;
+}

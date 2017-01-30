@@ -1,0 +1,5 @@
+<?php
+//O:8:"stdClass":24:{s:2:"ID";s:1:"2";s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2007-05-04 21:46:18";s:13:"post_date_gmt";s:19:"2007-05-04 21:46:18";s:12:"post_content";s:382:"<a class="imagelink" title="shadedlogo-small.jpg" href="http://omhs.biz/blog/wp-content/uploads/2007/05/shadedlogo-small.jpg"><img id="image5" height="96" alt="shadedlogo-small.jpg" src="http://omhs.biz/blog/wp-content/uploads/2007/05/shadedlogo-small.jpg" /></a>
+
+This blog represents my thoughts about me, my business, Oriental Medicine, the profession, T'ai Chi, and Qigong. ";s:10:"post_title";s:5:"About";s:13:"post_category";s:1:"0";s:12:"post_excerpt";s:0:"";s:11:"post_status";s:6:"static";s:14:"comment_status";s:4:"open";s:11:"ping_status";s:4:"open";s:13:"post_password";s:0:"";s:9:"post_name";s:5:"about";s:7:"to_ping";s:0:"";s:6:"pinged";s:0:"";s:13:"post_modified";s:19:"2007-05-05 05:13:27";s:17:"post_modified_gmt";s:19:"2007-05-05 05:13:27";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";s:1:"0";s:4:"guid";s:0:"";s:10:"menu_order";s:1:"0";s:9:"post_type";s:0:"";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"0";}
+?>

@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Landscape Maintenance</title>
+<link rel="stylesheet" type="text/css" href="css/oakes.css"/>
+<script src="js/jquery-1-5-1-min.js" type="text/javascript" language="javascript"></script>
+<script>
+ $(document).ready(function(){
+	var btnThumb = ".thumbNav li a";
+	var clickedClass = "active";
+	$(btnThumb).click(function () {
+      var previous = $(btnThumb+'.'+clickedClass).eq();
+      var clicked = $(this);
+         if(clicked !== previous) {
+			 $('.frontLandscape').removeClass('active')
+			 $('.pond').removeClass('active')
+			 $('.flowerGarden').removeClass('active')
+			 $('.waterfall').removeClass('active')
+			 $('.landscape').removeClass('active')
+			 $('.walkway').removeClass('active')
+         }
+         clicked.addClass(clickedClass);
+    });
+	
+	$(".frontLandscape").click(function () {
+      $(".liveImg").attr("src", "images/oakes/front_landscape.jpg");
+    });
+	$(".pond").click(function () {
+      $(".liveImg").attr("src", "images/oakes/pond.jpg");
+    });
+	$(".flowerGarden").click(function () {
+      $(".liveImg").attr("src", "images/oakes/flower_garden.jpg");
+    });
+	$(".waterfall").click(function () {
+      $(".liveImg").attr("src", "images/oakes/waterfall.jpg");
+    });
+	$(".landscape").click(function () {
+      $(".liveImg").attr("src", "images/oakes/landscape.jpg");
+    });
+	$(".walkway").click(function () {
+      $(".liveImg").attr("src", "images/oakes/walkway.jpg");
+    });
+	
+	(function($) {
+		var cache = [];
+		$.preLoadImages = function() {
+			var args_len = arguments.length;
+			for (var i = args_len; i--;) {
+				var cacheImage = document.createElement('img');
+				cacheImage.src = arguments[i];
+				cache.push(cacheImage);
+				}
+			}
+		})(jQuery)
+	jQuery.preLoadImages("pond.jpg", "images/oakes/pond.jpg");
+	jQuery.preLoadImages("flower_garden.jpg", "images/oakes/flower_garden.jpg");
+	jQuery.preLoadImages("waterfall.jpg", "images/oakes/waterfall.jpg");
+	jQuery.preLoadImages("landscape.jpg", "images/oakes/landscape.jpg");
+	jQuery.preLoadImages("walkway.jpg", "images/oakes/walkway.jpg");
+ });
+</script>
+
+</head>
+<body>
+<div class="wrap2">
+	<img src="images/oakes/header_logo.png" class="headerLogo" alt="Oakes Landscape Services LLC" />
+    <ul class="mainNav">
+    	<li><a class="vCenter" href="home.html">Home</a></li>
+        <li><a class="vCenter" href="about.html">About Us</a></li>
+        <li><a href="landscape_design.html">Landscape Design <br />&amp; Installation</a></li>
+        <li><a class="active"href="landscape_maintenance.html">Landscape <br />Maintenance</a></li>
+        <li><a class="vCenter" href="contact.html">Contact</a></li>
+    </ul>
+    <img src="images/oakes/maintenance_header.jpg" class="imgHeader" alt="Landscape Maintenance" />
+    <div class="landscapeBody">
+    	<h2>Landscape Maintenance</h2>
+        <p>Truly a full service company, we offer our clients a complete spectrum of services for both your business property and your personal residence.</p>
+        <p>Starting in the spring and continuing into the winter months, we provide prompt, professional services to fit your needs!</p>
+        <ul style="float:left;">
+        	<li>Spring clean-up &ndash; bed edging</li>
+            <li>Mulching and pre-emergence weed control</li>
+            <li>Lawn Maintenance &ndash; weekly cut, trim &amp; edge</li>
+            <li>Bed Maintenance &amp; shrubbery pruning</li>
+            <li>Seasonal flower plantings</li>
+        </ul>
+        <ul style="float:right;">
+        	<li>Complete Lawn Application program &ndash; fertilizer, weed & pest control</li>
+            <li>Core Aeration &amp; Overseeding</li>
+            <li>Fall Leaf Clean-up</li>
+            <li>Snow &amp; De-icing service &ndash; 24/7</li>
+        </ul>
+        <p>Please <a href="contact.html">contact</a> us for your personal quote, we strive to earn your business.</p>
+        <ul class="thumbNav">
+        	<li><a class="frontLandscape active"><img src="images/oakes/thumb_front_landscape.jpg" alt="Home Front Landscape Preview" border="0" /></a></li>
+            <li><a class="pond"><img src="images/oakes/thumb_pond.jpg" alt="Pond Preview" border="0" /></a></li>
+            <li><a class="flowerGarden"><img src="images/oakes/thumb_flower_garden.jpg" alt="Flower Garden Preview" border="0" /></a></li>
+            <li><a class="waterfall"><img src="images/oakes/thumb_waterfall.jpg" alt="Waterfall Preview" border="0" /></a></li>
+            <li><a class="landscape"><img src="images/oakes/thumb_landscape.jpg" alt="Landscape Preview" border="0" /></a></li>
+            <li><a class="walkway"><img src="images/oakes/thumb_walkway.jpg" alt="Walkway Preview" border="0" /></a></li>
+        </ul>
+        <img class="liveImg" src="images/oakes/front_landscape.jpg" alt="Home front landscape" />
+    </div>
+    <div class="footer rule">
+   	  <p>Oakes Landscape Services LLC &copy; 2011 All Rights Reserved.</p>
+    	<p>Phone: 215-672-5378 (Horsham), 267-362-5293 (Doylestown) &bull; Fax: 215-672-7224</p>
+    	<p>E-mail: <a href="mailto:joakes@oakeslandscapeservices.com">joakes@oakeslandscapeservices.com</a> &bull; <a href="mailto:soakes@oakeslandscapeservices.com">soakes@oakeslandscapeservices.com</a></p>
+      	<p>Site design by <a href="http://www.236design.com" target="_blank">236design</a></p>
+  </div>
+</div>
+</body>
+</html>

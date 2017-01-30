@@ -1,0 +1,330 @@
+/* CSS Document */
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #2b2829 !important;
+}
+
+#wrap {
+	margin: 50px auto;
+	padding: 0;
+	width: 930px;
+	position: relative;
+}
+
+#img-lrg {
+	margin: 0; 
+	padding: 0; 
+	position: absolute;
+	top: 56px;
+	left: 0;
+	width: 460px; 
+	height: 347px;
+	z-index: 50;
+}
+
+#logo {
+	margin: 0; 
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 12px; 
+	width: 190px; 
+	height: 45px;
+	border: none;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	display: inline;
+	list-style: none;
+}
+
+ul li a {
+	color: #2b2829;
+}
+
+ul#nav {
+	position: absolute;
+	top: -5px;
+	left: 250px;
+}
+
+ul#nav li {
+	display: inline;
+}
+
+ul#nav li a {
+	display: block;
+	margin: 0 10px 0 0;
+	padding: 39px 0 0 0;
+	width: 40px;
+	text-align: center;
+	color: #4e4c4c;
+	text-decoration: none;
+	font-size: 10px;
+	font-family: Tahoma, "Trebuchet MS", Geneva, Arial, Helvetica, sans-serif;
+	background-color: #2b2829;
+	float: left;
+}
+
+ul#nav li a.home {
+	background-image: url(/assets/btn_home.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+ul#nav li a.gallery {
+	background-image: url(/assets/btn_gallery.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	color: #FFFFFF;
+}
+
+ul#nav li a.about {
+	background-image: url(/assets/btn_about.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+ul#nav li a.portfolio {
+	background-image: url(/assets/btn_portfolio.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+ul#nav li a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+li#xander a {
+	display: block;
+	position: absolute;
+	top: 61px;
+	left: 475px; 
+	width: 108px;
+	height: 107px;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+li#xander a span {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url(/assets/img_baby_xander.gif);
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+li#xander a:hover span {
+	background-image: url(/assets/img_baby_xander_on.gif);
+}
+
+li#daniels_5th a {
+	display: block;
+	position: absolute;
+	top: 61px;
+	left: 591px;
+	width: 108px;
+	height: 107px;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+li#daniels_5th a span {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url(/assets/img_daniels_5th.gif);
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+li#daniels_5th a:hover span {
+	background-image: url(/assets/img_daniels_5th_on.gif);
+}
+
+li#wedding a {
+	display: block;
+	position: absolute;
+	top: 61px;
+	left: 707px;  
+	width: 108px;
+	height: 107px;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+li#wedding a span {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url(/assets/img_wedding.gif);
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+li#wedding a:hover span {
+	background-image: url(/assets/img_wedding_on.gif);
+}
+
+#cube-1-4 {
+	display: block;
+	margin: 0; 
+	padding: 0; 
+	position: absolute;
+	top: 61px;
+	left: 823px; 
+	background-image: url(/assets/img_blank.gif);
+	background-repeat: no-repeat;
+	width: 108px;
+	height: 107px;
+}
+
+#cube-2-1 {
+	display: block;
+	margin: 0; 
+	padding: 0; 
+	position: absolute;
+	top: 176px;
+	left: 475px; 
+	background-image: url(/assets/img_blank.gif);
+	background-repeat: no-repeat;
+	width: 108px;
+	height: 107px;
+}
+
+#cube-2-2 {
+	display: block;
+	margin: 0; 
+	padding: 0; 
+	position: absolute;
+	top: 176px;
+	left: 591px; 
+	background-image: url(/assets/img_blank.gif);
+	background-repeat: no-repeat;
+	width: 108px;
+	height: 107px;
+}
+
+#cube-2-3 {
+	display: block;
+	margin: 0; 
+	padding: 0; 
+	position: absolute;
+	top: 176px;
+	left: 707px; 
+	background-image: url(/assets/img_blank.gif);
+	background-repeat: no-repeat;
+	width: 108px;
+	height: 107px;
+}
+
+#cube-2-4 {
+	display: block;
+	margin: 0; 
+	padding: 0; 
+	position: absolute;
+	top: 176px;
+	left: 823px;
+	background-image: url(/assets/img_blank.gif);
+	background-repeat: no-repeat;
+	width: 108px;
+	height: 107px;
+}
+
+#cube-3-1 {
+	display: block;
+	margin: 0; 
+	padding: 0; 
+	position: absolute;
+	top: 291px;
+	left: 475px; 
+	background-image: url(/assets/img_blank.gif);
+	background-repeat: no-repeat;
+	width: 108px;
+	height: 107px;
+}
+
+#cube-3-2 {
+	display: block;
+	margin: 0; 
+	padding: 0; 
+	position: absolute;
+	top: 291px;
+	left: 591px; 
+	background-image: url(/assets/img_blank.gif);
+	background-repeat: no-repeat;
+	width: 108px;
+	height: 107px;
+}
+
+#cube-3-3 {
+	display: block;
+	margin: 0; 
+	padding: 0; 
+	position: absolute;
+	top: 291px;
+	left: 707px; 
+	background-image: url(/assets/img_blank.gif);
+	background-repeat: no-repeat;
+	width: 108px;
+	height: 107px;
+}
+
+#cube-3-4 {
+	display: block;
+	margin: 0; 
+	padding: 0; 
+	position: absolute;
+	top: 291px;
+	left: 823px; 
+	background-image: url(/assets/img_blank.gif);
+	background-repeat: no-repeat;
+	width: 108px;
+	height: 107px;
+}
+
+#date {
+	margin: 0;
+	padding: 3px 0 10px 0;
+	position: absolute;
+	top: 40px;
+	left: 270px;
+	color: #CCCCCC;
+	text-align: center;
+	width: 155px;
+	font-size: 9px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #555152;
+	z-index: 40;
+}
+
+#welcome {
+	margin: 0;
+	padding: 10px 12px 6px 12px;
+	width: 280px;
+	position: absolute;
+	top: 392px;
+	left: 35px;
+	text-align: center;
+	color: #CCCCCC;
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #555152;
+	z-index: 40;
+}
+
+.highlight {
+	color: #b19476;
+}
+
+/* fixes png transparency in IE 5.5+ */
+img.png { behavior: url(/scripts/iepngfix.htc); }
+/* fixes png transparency in IE
+5.5+ */

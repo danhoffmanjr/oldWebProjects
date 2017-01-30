@@ -1,0 +1,465 @@
+/* CSS Document */
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #391403;
+	background-image: url(/assets/bkgd_body_main.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	padding: 0;
+}
+
+#category {
+	display: none;
+}
+
+#wrapper {
+	margin: 0 auto;
+	padding: 0 36px 0 29px;
+	position: relative;
+	width: 803px;
+	background-image: url(/assets/bkgd_side_shadows.png);
+	background-repeat: repeat-y;
+}
+
+#wrapperBtm {
+	margin: 0 auto;
+	padding: 0 36px 10px 29px;
+	position: relative;
+	width: 803px;
+	height: 46px;
+	background-image: url(/assets/bkgd_bottom_shadow.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+#header {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 803px;
+	height: 97px;
+	overflow: hidden;
+}
+
+#header span {
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url(/assets/omhs_header.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+ul#navTop {
+	margin: 0;
+	padding: 0 0 0 227px;
+	width: 576px;
+	height: 105px;
+	display: block;
+	background-color: #f2f1f0;
+
+}
+
+ul#navTop li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: left;
+	display: inline;
+}
+
+ul#navTop li a {
+	margin: 0;
+	padding: 10px 0 0 5px;
+	display: block;
+	background-color: #f2f1f0;
+	width: 90px;
+	height: 95px;
+	border-left: 1px solid #ffffff;
+	float: left;
+	font-size:12px;
+	color: #333333;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+ul#navTop li a:hover {
+	background-color: #e7e4e1;
+}
+
+ul#navTop li a.active {
+	background-color: #6f4a1b;
+	color: #FFFFFF;
+}
+
+ul#navTop li a.active:hover {
+	background-color: #6f4a1b;
+	color: #FFFFFF;
+}
+
+ul#navCat {
+	margin: 0;
+	padding: 7px 10px 0 180px;
+	width: 613px;
+	background-color: #6f4a1b;
+	border: none;
+	position: absolute;
+	top: 202px;
+	left: 29px;
+	z-index: 10;
+	list-style: none;
+}
+
+ul#navCat.acu {
+	padding: 7px 10px 0 202px;
+	width: 591px;
+}
+
+ul#navCat.qi {
+	padding: 7px 10px 0 273px;
+	width: 520px;
+}
+
+ul#navCat li {
+	margin: 0 4px;
+	padding: 0;
+	display: block;
+	float: left;
+}
+
+ul#navCat li a {
+	margin: 0;
+	padding: 5px 15px;
+	display: block;
+	text-align: center;
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+ul#navCat li a:hover {
+	text-decoration: underline;
+}
+
+ul#navCat li a.active {
+	background-color: #ffffff;
+	color: #6f4a1b;
+	background-image: url(/assets/bkgd_tabs.jpg);
+}
+
+ul#navCat li a.active:hover {
+	background-color: #ffffff;
+	color: #6f4a1b;
+}
+
+#copyMain {
+	margin: 0;
+	padding: 30px 40px 20px 190px;
+	position: relative;
+	top: 20px;
+	width: 573px;
+	min-height: 650px;
+	clear: both;
+	overflow: auto;
+	background-position: 0 10px;
+	background-repeat: no-repeat;
+}
+
+#copyMain h3 {
+	margin: 0 0 12px 0;
+	padding: 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+#copyMain h4 {
+	margin: 0 0 12px 0;
+	padding: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: normal;
+}
+
+#copyMain p {
+	margin: 0 0 10px 0;
+	padding: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	font-weight: normal;
+}
+
+#copyMain ul {
+	margin: 0 0 12px 30px;
+	padding: 0;
+}
+
+#copyMain ul li {
+	margin: 0 0 5px 0;
+	padding: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	font-weight: normal;
+}
+
+#copyMain ul li ul {
+	margin: 5px 0 0 30px;
+	padding: 0;
+}
+
+#calligraphy {
+	margin: 0 0 10px 0;
+	padding: 20px;
+	width: 500px;
+	overflow: auto;
+	background-image: url(/assets/tuinamassage.png);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+#tui {
+	display: block;
+	float: none;
+	overflow: auto;
+}
+
+#na {
+	display: block;
+	float: none;
+	margin: 30px 0 0 0;
+	clear: both;
+	overflow: auto;
+}
+
+#calligraphy img {
+	float: left;
+}
+
+#calligraphy p {
+	margin: 5px 0 0 90px;
+}
+
+#calligraphy p em {
+	display: block;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #006600;
+}
+
+#certs {
+	margin: 0;
+	padding: 5px;
+	text-align: center;
+	overflow: auto;
+}
+
+#certs img {
+	margin: 5px;
+	border: 1px solid silver;
+}
+
+/*----------< START SUB NAV >----------*/
+
+ul#navSub {
+	margin: 0;
+	padding: 0 0 4px 0;
+	width: 163px;
+	position: absolute;
+	top: 433px;
+	list-style: none;
+	background-color: #e7e4e1;
+	border-top: 1px solid white;
+	z-index: 40;
+}
+
+ul#navSub li {
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+
+ul#navSub li ul#extras {
+	margin: 0;
+	padding: 0;
+	display: none;
+}
+
+ul#navSub li a {
+	display: block;
+	margin: 0;
+	padding: 8px;
+	background-color: #f2f1f0;
+	font-size: 11px;
+	color: #666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	border-bottom: 1px solid #ffffff;
+}
+
+ul#navSub li ul#extras li a {
+	display: block;
+	margin: 0 0 0 10px;
+	padding: 8px;
+	background-color: #f2f1f0;
+	font-size: 11px;
+	color: #666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	border-bottom: 1px solid #ffffff;
+}
+
+ul#navSub li ul#extras li a:hover {
+	background-color: #e7e4e1;
+}
+
+ul#navSub li a:hover {
+	background-color: #e7e4e1;
+}
+
+ul#navSub li a.active {
+	background-color: #6f4a1b;
+	color: #FFFFFF;
+	background-image:url(/assets/activeLink_arrow.png);
+	background-repeat: no-repeat;
+	background-position: 148px 10px;
+}
+
+ul#navSub li ul#extras li a.active {
+	background-color: #6f4a1b;
+	color: #FFFFFF;
+	background-image:url(/assets/activeLink_arrow.png);
+	background-repeat: no-repeat;
+	background-position: 138px 10px;
+}
+
+ul#navSub li a.parent {
+	background-color: #e7e4e1;
+	color: #666666;
+	background-image: none;
+}
+
+/*----------< END SUB NAV >----------*/
+
+.big {
+	font-size: 18px;
+}
+
+.mstom {
+	font-size: smaller;
+}
+
+.tuina {
+	background-image: url(/assets/bkgd_tuina_chair.jpg);
+}
+
+.acupuncture {
+	background-image: url(/assets/bkgd_acupuncture_needles.jpg);
+}
+
+.taichi {
+	background-image: url(/assets/bkgd_tai_chi.jpg);
+}
+
+.qigong {
+	background-image: url(/assets/bkgd_qigong.jpg);
+}
+
+.herbology {
+	background-image: url(/assets/bkgd_herbs.jpg);
+}
+
+.addtherapy {
+	background-image: url(/assets/bkgd_addiction.jpg);
+}
+
+.imgFloatRight {
+	float: right; 
+	margin: 0 0 0 10px;
+}	
+
+a.picPopup {
+	border-bottom: 3px double silver;
+	color: black;
+	text-decoration: none;
+}
+
+a:hover.picPopup {
+	border-bottom: 3px double blue;
+	color: black;
+	text-decoration: none;
+}
+
+#ImgMeridians {
+	float: right;
+	margin: 5px 0 5px 20px;
+}
+
+#tbl_needleGauge,#tbl_needleLengths {
+	margin: 10px 0;
+	padding: 0;
+	width: 450px;
+	border: 1px solid black;
+	border-collapse: collapse;
+	background-color: #FFFFFF;
+}
+
+#tbl_needleGauge td,#tbl_needleGauge th,#tbl_needleLengths td,#tbl_needleLengths th {
+	padding: 5px;
+	border: 1px solid black;
+	text-align: center;
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#tbl_needleGauge td.darkGreen {
+	color: white;
+	background-color: #008000;
+}
+
+#tbl_needleGauge td.limeGreen {
+	background-color: Lime;
+}
+
+#tbl_needleGauge td.red {
+	color: white;
+	background-color: Red;
+}
+
+#tbl_needleGauge td.ivory {
+	background-color: #F0E68C;
+}
+
+#tbl_needleGauge td.blue {
+	color: white;
+	background-color: Blue;
+}
+
+#tbl_needleGauge td.pink {
+	background-color: Pink;
+}
+
+#tbl_needleGauge td.purple {
+	color: white;
+	background-color: Purple;
+}
+
+#tbl_needleGauge td.brown {
+	color: white;
+	background-color: Brown;
+}

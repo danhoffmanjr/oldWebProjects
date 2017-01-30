@@ -1,0 +1,217 @@
+<photoCollection mode="publish">
+            <display>
+                <style siteTitleColor="#FF0000" thumbSize="90.00" css="#liveUpdateSiteTitle {
+  color: #000000 !important;
+  background-color: inherit;
+}
+
+body {
+  background-color: #7D7D7D !important;
+  text-align: center !important;
+  height: 100% !important;
+  font-family: Verdana, Arial, Helvetica, sans-serif !important;
+  font-size:  10px !important;
+  width: 100% !important;
+  color: inherit;
+}
+
+#flashcontent {
+  height: 600px !important;
+  margin: 0px auto !important;
+  width: 900px !important;
+}
+
+#idplate {
+  clear: both !important;
+  border: 0px !important;
+  margin: 0 auto !important;
+}
+" identityPlateAbsolutePath="" idplateEnabled="false" largeImageSize="450.00"></style>
+                <metadata>
+                    <siteTitle value="Wilks Gallery"></siteTitle>
+                    <groupTitle value="Floral Gallery"></groupTitle>
+                    <titleColor value="000000"></titleColor>
+                    <creationDate formatted="06/05/08, 07:17:29 PM"></creationDate>
+                </metadata>
+                <localization></localization>
+            </display>
+            <head>
+                <siteTitle></siteTitle>
+                <collectionName></collectionName>
+                <collectionTitle></collectionTitle>
+                <collectionDescription></collectionDescription>
+                <contactInfo></contactInfo>
+                <slideDuration></slideDuration>
+                <sizes>
+                    <size height="450" name="large" width="450"></size>
+                    <size height="90" name="thumb" width="90"></size>
+                </sizes>
+            </head>
+            <samples totalGallerySize="20" firstSampleIndex="1">
+                <img orientation="AB" imageID="1B3B8119-EE14-40A3-9CD5-E8FCB169DC97" filename="01_Yellow_Gerber_Daisy">
+                    <text>
+                        <title>01 Yellow Gerber Daisy</title>
+                        <description>01 Yellow Gerber Daisy</description>
+                    </text>
+                    <rendition height="450" path="bin/images/large/01_Yellow_Gerber_Daisy.jpg" width="450" size="large"></rendition>
+                    <rendition height="90" path="bin/images/thumb/01_Yellow_Gerber_Daisy.jpg" width="90" size="thumb"></rendition>
+                </img>
+                <img orientation="AB" imageID="7F7217DE-F083-4B69-9DF1-3358118705EF" filename="02_Pink_Tulip">
+                    <text>
+                        <title>02 Pink Tulip</title>
+                        <description>02 Pink Tulip</description>
+                    </text>
+                    <rendition height="450" path="bin/images/large/02_Pink_Tulip.jpg" width="450" size="large"></rendition>
+                    <rendition height="90" path="bin/images/thumb/02_Pink_Tulip.jpg" width="90" size="thumb"></rendition>
+                </img>
+                <img orientation="AB" imageID="14FE05C4-2C27-4978-BEFB-43B6AEF413A4" filename="03_Yellow_Calla_w_Leaf">
+                    <text>
+                        <title>03 Yellow Calla w Leaf</title>
+                        <description>03 Yellow Calla w Leaf</description>
+                    </text>
+                    <rendition height="432" path="bin/images/large/03_Yellow_Calla_w_Leaf.jpg" width="450" size="large"></rendition>
+                    <rendition height="86" path="bin/images/thumb/03_Yellow_Calla_w_Leaf.jpg" width="90" size="thumb"></rendition>
+                </img>
+                <img orientation="AB" imageID="47BCB7FD-6B53-44BF-A2B6-A0B7E2450A5D" filename="04_Fuschia_Phalaenopsis_Orchid">
+                    <text>
+                        <title>04 Fuschia Phalaenopsis Orchid</title>
+                        <description>04 Fuschia Phalaenopsis Orchid</description>
+                    </text>
+                    <rendition height="450" path="bin/images/large/04_Fuschia_Phalaenopsis_Orchid.jpg" width="450" size="large"></rendition>
+                    <rendition height="90" path="bin/images/thumb/04_Fuschia_Phalaenopsis_Orchid.jpg" width="90" size="thumb"></rendition>
+                </img>
+                <img orientation="AB" imageID="2D4469A8-73C7-405C-9FFB-C0447318CF7F" filename="05_Purple_hydraenga">
+                    <text>
+                        <title>05 Purple hydraenga</title>
+                        <description>05 Purple hydraenga</description>
+                    </text>
+                    <rendition height="450" path="bin/images/large/05_Purple_hydraenga.jpg" width="450" size="large"></rendition>
+                    <rendition height="90" path="bin/images/thumb/05_Purple_hydraenga.jpg" width="90" size="thumb"></rendition>
+                </img>
+                <img orientation="AB" imageID="3CD491AB-EFC4-4B55-BB10-F77090A1BEDD" filename="06_Purple_Tulips">
+                    <text>
+                        <title>06 Purple Tulips</title>
+                        <description>06 Purple Tulips</description>
+                    </text>
+                    <rendition height="450" path="bin/images/large/06_Purple_Tulips.jpg" width="300" size="large"></rendition>
+                    <rendition height="90" path="bin/images/thumb/06_Purple_Tulips.jpg" width="60" size="thumb"></rendition>
+                </img>
+                <img orientation="AB" imageID="AFA23C78-E32B-476D-B427-2917FC882177" filename="07_Queen_Anne_s_Lace_side">
+                    <text>
+                        <title>07 Queen Anne's Lace side</title>
+                        <description>07 Queen Anne's Lace side</description>
+                    </text>
+                    <rendition height="442" path="bin/images/large/07_Queen_Anne_s_Lace_side.jpg" width="450" size="large"></rendition>
+                    <rendition height="88" path="bin/images/thumb/07_Queen_Anne_s_Lace_side.jpg" width="90" size="thumb"></rendition>
+                </img>
+                <img orientation="AB" imageID="42833065-1D6F-45C2-B92B-20FFAF2A8A8C" filename="08_Yellow_Calla_full">
+                    <text>
+                        <title>08 Yellow Calla full</title>
+                        <description>08 Yellow Calla full</description>
+                    </text>
+                    <rendition height="450" path="bin/images/large/08_Yellow_Calla_full.jpg" width="292" size="large"></rendition>
+                    <rendition height="90" path="bin/images/thumb/08_Yellow_Calla_full.jpg" width="58" size="thumb"></rendition>
+                </img>
+                <img orientation="AB" imageID="A68C9920-57B4-4AA6-A56F-FE1039C6BBCE" filename="09_White_Rose">
+                    <text>
+                        <title>09 White Rose</title>
+                        <description>09 White Rose</description>
+                    </text>
+                    <rendition height="450" path="bin/images/large/09_White_Rose.jpg" width="450" size="large"></rendition>
+                    <rendition height="90" path="bin/images/thumb/09_White_Rose.jpg" width="90" size="thumb"></rendition>
+                </img>
+                <img orientation="AB" imageID="4460BA31-24E3-4680-B659-B66FBD4E4BB0" filename="10_Pink_Dahlia">
+                    <text>
+                        <title>10 Pink Dahlia</title>
+                        <description>10 Pink Dahlia</description>
+                    </text>
+                    <rendition height="434" path="bin/images/large/10_Pink_Dahlia.jpg" width="450" size="large"></rendition>
+                    <rendition height="87" path="bin/images/thumb/10_Pink_Dahlia.jpg" width="90" size="thumb"></rendition>
+                </img>
+                <img orientation="AB" imageID="FB0807B1-25F6-41D2-A164-74BC867FD1B3" filename="11_Leucadendron_Safari_Sunset">
+                    <text>
+                        <title>11 Leucadendron Safari Sunset</title>
+                        <description>11 Leucadendron Safari Sunset</description>
+                    </text>
+                    <rendition height="425" path="bin/images/large/11_Leucadendron_Safari_Sunset.jpg" width="450" size="large"></rendition>
+                    <rendition height="85" path="bin/images/thumb/11_Leucadendron_Safari_Sunset.jpg" width="90" size="thumb"></rendition>
+                </img>
+                <img orientation="AB" imageID="E3432748-CE3C-490D-BA71-53D98F1C1A4C" filename="12_Sunflower">
+                    <text>
+                        <title>12 Sunflower</title>
+                        <description>12 Sunflower</description>
+                    </text>
+                    <rendition height="450" path="bin/images/large/12_Sunflower.jpg" width="450" size="large"></rendition>
+                    <rendition height="90" path="bin/images/thumb/12_Sunflower.jpg" width="90" size="thumb"></rendition>
+                </img>
+                <img orientation="AB" imageID="538E5C1B-6C4B-43A0-A330-9922C072F6E1" filename="13_Stargazer_Lily_back">
+                    <text>
+                        <title>13 Stargazer Lily back</title>
+                        <description>13 Stargazer Lily back</description>
+                    </text>
+                    <rendition height="450" path="bin/images/large/13_Stargazer_Lily_back.jpg" width="443" size="large"></rendition>
+                    <rendition height="90" path="bin/images/thumb/13_Stargazer_Lily_back.jpg" width="89" size="thumb"></rendition>
+                </img>
+                <img orientation="AB" imageID="B95B97F0-676D-468F-ACE9-1C969D72DF77" filename="14_Peony">
+                    <text>
+                        <title>14 Peony</title>
+                        <description>14 Peony</description>
+                    </text>
+                    <rendition height="450" path="bin/images/large/14_Peony.jpg" width="450" size="large"></rendition>
+                    <rendition height="90" path="bin/images/thumb/14_Peony.jpg" width="90" size="thumb"></rendition>
+                </img>
+                <img orientation="AB" imageID="A345FA46-3978-477E-8E96-8E6ED942814F" filename="15_Purple_Tulip">
+                    <text>
+                        <title>15 Purple Tulip</title>
+                        <description>15 Purple Tulip</description>
+                    </text>
+                    <rendition height="450" path="bin/images/large/15_Purple_Tulip.jpg" width="450" size="large"></rendition>
+                    <rendition height="90" path="bin/images/thumb/15_Purple_Tulip.jpg" width="90" size="thumb"></rendition>
+                </img>
+                <img orientation="AB" imageID="CA6F1521-2C6A-462E-9B07-F8F1FDE566E3" filename="16_Queen_Anne_s_Lace_full">
+                    <text>
+                        <title>16 Queen Anne's Lace full</title>
+                        <description>16 Queen Anne's Lace full</description>
+                    </text>
+                    <rendition height="450" path="bin/images/large/16_Queen_Anne_s_Lace_full.jpg" width="447" size="large"></rendition>
+                    <rendition height="90" path="bin/images/thumb/16_Queen_Anne_s_Lace_full.jpg" width="89" size="thumb"></rendition>
+                </img>
+                <img orientation="AB" imageID="D9FE52AE-7A01-4485-A352-B26B37C4689E" filename="17_Three_Callas">
+                    <text>
+                        <title>17 Three Callas</title>
+                        <description>17 Three Callas</description>
+                    </text>
+                    <rendition height="450" path="bin/images/large/17_Three_Callas.jpg" width="265" size="large"></rendition>
+                    <rendition height="90" path="bin/images/thumb/17_Three_Callas.jpg" width="53" size="thumb"></rendition>
+                </img>
+                <img orientation="AB" imageID="7FD93693-269B-418C-8D9C-A7E973F965AB" filename="18_White_Roses">
+                    <text>
+                        <title>18 White Roses</title>
+                        <description>18 White Roses</description>
+                    </text>
+                    <rendition height="450" path="bin/images/large/18_White_Roses.jpg" width="386" size="large"></rendition>
+                    <rendition height="90" path="bin/images/thumb/18_White_Roses.jpg" width="77" size="thumb"></rendition>
+                </img>
+                <img orientation="AB" imageID="3A032FA3-271D-4C1E-8CEC-2233085BE0E0" filename="19_Sunflower_side">
+                    <text>
+                        <title>19 Sunflower side</title>
+                        <description>19 Sunflower side</description>
+                    </text>
+                    <rendition height="447" path="bin/images/large/19_Sunflower_side.jpg" width="450" size="large"></rendition>
+                    <rendition height="89" path="bin/images/thumb/19_Sunflower_side.jpg" width="90" size="thumb"></rendition>
+                </img>
+                <img orientation="AB" imageID="28743D48-1FBD-48B5-88E1-929661E882CA" filename="20_Stargazer_Lily_front">
+                    <text>
+                        <title>20 Stargazer Lily front</title>
+                        <description>20 Stargazer Lily front</description>
+                    </text>
+                    <rendition height="450" path="bin/images/large/20_Stargazer_Lily_front.jpg" width="450" size="large"></rendition>
+                    <rendition height="90" path="bin/images/thumb/20_Stargazer_Lily_front.jpg" width="90" size="thumb"></rendition>
+                </img>
+            </samples>
+            <siteParams>
+                <firstImage index="1.00" special="first"></firstImage>
+                <lastImage index="20.00" special="last"></lastImage>
+                <progressName text="$$$/WPGBatchProcessing/ProgressScope/DefaultMessage=Generating Web Gallery"></progressName>
+            </siteParams>
+        </photoCollection>
